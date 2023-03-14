@@ -1,13 +1,13 @@
 package skypro.java.course1.homework12;
 
 public class Book {
-    String title;
-    Author name;
-    int year;
+    private String title;
+    private Author author;
+    private int year;
 
-    public Book (String title, Author name, int year) {
+    public Book (String title, Author author, int year) {
         this.title = title;
-        this.name = name;
+        this.author = author;
         this.year = year;
     }
 
@@ -15,8 +15,8 @@ public class Book {
         return this.title;
     }
 
-    public Author getName() {
-        return this.name;
+    public Author getAuthor() {
+        return this.author;
     }
 
     public int getYear() {

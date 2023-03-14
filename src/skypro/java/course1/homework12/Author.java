@@ -1,8 +1,8 @@
 package skypro.java.course1.homework12;
 
 public class Author {
-    String firstName;
-    String surname;
+    private String firstName;
+    private String surname;
 
     public Author(String firstName, String surname) {
         this.firstName = firstName;
